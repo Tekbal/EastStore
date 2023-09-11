@@ -8,5 +8,6 @@
         public decimal Price { get; set; }
         public string Image { get; set; }
         public DateTime Created { get; set; } = DateTime.Now;
-    }
+        public string Picture { get; set; }
+}
 }
